@@ -1,0 +1,119 @@
+/* ==================== MAIN CONTAINER ==================== */
+.root {
+    -fx-background-image: url("images/background-image.png");
+    -fx-background-size: cover;
+    -fx-padding: 20;
+    -fx-background-color: rgba(0, 0, 0, 0.3);
+    -fx-background-blend-mode: multiply;
+}
+
+/* ==================== TEXT FIELD (DISPLAY) ==================== */
+.text-field {
+    -fx-font-family: "Lora";
+    -fx-font-size: 32px;
+    -fx-text-fill: #F5F6FA;
+    -fx-background-color: rgba(255, 255, 255, 0.08);
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 20, 0, 0, 8);
+}
+
+/* ==================== BUTTON BASICS ==================== */
+.button {
+    -fx-font-family: "Lora";
+    -fx-cursor: hand;
+    -fx-max-width: Infinity;
+    -fx-max-height: Infinity;
+    -fx-transition: 0.2s;
+}
+
+/* ==================== NUMBER BUTTONS ==================== */
+.number {
+    -fx-font-size: 18px;
+    -fx-text-fill: #F5F6FA;
+    -fx-background-color: rgba(245, 246, 250, 0.12);
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-border-color: rgba(255, 255, 255, 0.1);
+}
+
+.number:hover {
+    -fx-background-color: rgba(245, 246, 250, 0.22);
+}
+
+.number:pressed {
+    -fx-background-color: rgba(245, 246, 250, 0.05);
+    -fx-translate-y: 2px;
+}
+
+/* ==================== OPERATOR BUTTONS ==================== */
+.options {
+    -fx-font-size: 20px;
+    -fx-text-fill: rgba(220, 221, 225);
+    -fx-background-color: rgba(113, 128, 147, 0.25);
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-border-color: rgba(255, 255, 255, 0.05);
+}
+
+.options:hover {
+    -fx-background-color: rgba(113, 128, 147, 0.4);
+}
+
+.options:pressed {
+    -fx-background-color: rgba(113, 128, 147, 0.15);
+    -fx-translate-y: 2px;
+}
+
+/* ==================== EQUALS BUTTON (ACCENT) ==================== */
+.equal {
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+    -fx-background-color: #2F3640; 
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 15, 0, 0, 4);
+}
+
+.equal:hover {
+    -fx-background-color: #353B48;
+}
+
+.equal:pressed {
+    -fx-background-color: #1E272E;
+    -fx-translate-y: 2px;
+}
+
+/* ==================== DELETE/CLEAR BUTTONS ==================== */
+.delete {
+    -fx-font-size: 16px;
+    -fx-text-fill: #FAB1A0;
+    -fx-background-color: rgba(225, 112, 85, 0.18);
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-border-color: rgba(225, 112, 85, 0.2);
+}
+
+.delete:hover {
+    -fx-background-color: rgba(225, 112, 85, 0.3);
+}
+
+.delete:pressed {
+    -fx-background-color: rgba(225, 112, 85, 0.1);
+    -fx-translate-y: 2px;
+}
+
+
+
+.display-error {
+    -fx-font-size: 18px !important;
+    -fx-text-fill: #FAB1A0;
+    -fx-border-color: rgba(225, 112, 85, 0.5);
+}
+
+.button:disabled {
+    -fx-opacity: 0.3;
+}
