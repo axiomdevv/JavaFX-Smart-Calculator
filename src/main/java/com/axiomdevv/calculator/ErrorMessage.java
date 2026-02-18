@@ -1,4 +1,4 @@
-package com.example.calculator;
+package com.axiomdevv.calculator;
 
 public enum ErrorMessage {
     OVERFLOW("OVERFLOW - Number too large"),

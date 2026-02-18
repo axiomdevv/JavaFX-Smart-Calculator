@@ -1,4 +1,4 @@
-package com.example.calculator;
+package com.axiomdevv.calculator;
 
 import javafx.application.Application;
 

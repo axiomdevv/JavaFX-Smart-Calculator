@@ -3,6 +3,6 @@ module com.example.calculator {
     requires javafx.fxml;
 
 
-    opens com.example.calculator to javafx.fxml;
-    exports com.example.calculator;
+    opens com.axiomdevv.calculator to javafx.fxml;
+    exports com.axiomdevv.calculator;
 }

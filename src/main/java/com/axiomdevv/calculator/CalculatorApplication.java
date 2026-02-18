@@ -1,4 +1,4 @@
-package com.example.calculator;
+package com.axiomdevv.calculator;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -22,7 +22,7 @@ public class CalculatorApplication extends Application {
         CalculatorController controller = fxmlLoader.getController();
         controller.initKeyboard(scene);
 
-        stage.getIcons().add(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/example/calculator/images/icon.png"))));
+        stage.getIcons().add(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/axiomdevv/calculator/images/icon.png"))));
 
 
         stage.setTitle("Calculator");

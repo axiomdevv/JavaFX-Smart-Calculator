@@ -1,4 +1,4 @@
-package com.example.calculator;
+package com.axiomdevv.calculator;
 
 public enum Operation {
     ADD("+"),
