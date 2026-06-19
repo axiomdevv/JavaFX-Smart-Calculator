@@ -26,3 +26,10 @@ A high-precision, state-aware calculator built with JavaFX. This project demonst
 * FXML Refinement (Manual Coding): Once the layout was set, I manually refined the .fxml file. This involved cleaning up the XML structure, optimizing GridPane constraints, and ensuring clean ID assignments for controller integration.
 
 * Visual Styling (External CSS): To maintain a clean separation of concerns, I linked an external .css stylesheet. All visual properties (fonts, colors, hover effects, and error states) are managed here, keeping the Java controller focused purely on math and logic.
+
+## Looks
+
+![Main Screen](screenshots/Calculator-Look.png)
+![Division by ZERO ERROE](screenshots/Division-by-0-rror-msg.png)
+![OverFlow ERROR](screenshots/OverFlow-Error-msg.png)
+![Square root ERROR](screenshots/Square-root-Error-msg.png)
